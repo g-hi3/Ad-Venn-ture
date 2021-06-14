@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2340559151070151650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2340559151070151651}
+  - component: {fileID: 2340559151070151648}
+  - component: {fileID: 2340559151070151649}
+  m_Layer: 0
+  m_Name: Green Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2340559151070151651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2340559151070151650}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &2340559151070151648
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2340559151070151650}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.7065091, y: 2.6914434}
+  - {x: -0.92723906, y: 2.5005279}
+  - {x: -0.27724046, y: 2.4964902}
+  - {x: 2.048205, y: 1.9561813}
+  - {x: 2.9212997, y: 1.8610405}
+  - {x: 3.5408742, y: 1.830889}
+  - {x: 4.821323, y: 1.8251398}
+  - {x: 5.063504, y: 1.6253335}
+  - {x: 5.1637897, y: 1.2808129}
+  - {x: 5.1224847, y: 0.9583452}
+  - {x: 4.8167963, y: 0.65011716}
+  - {x: 4.258243, y: 0.83358693}
+  - {x: 3.1925955, y: 0.9580157}
+  - {x: 1.779751, y: 1.0377212}
+  - {x: 0.5232079, y: 1.410277}
+  - {x: -0.4989444, y: 1.505257}
+  - {x: -1.0041375, y: 1.512163}
+  - {x: -1.703242, y: 1.4119548}
+  - {x: -1.9684645, y: 1.6162314}
+  - {x: -1.9899089, y: 2.1688156}
+  - {x: -1.7150267, y: 2.6914432}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!114 &2340559151070151649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2340559151070151650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc8b3f84c20bd5469e609dd38657027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTag: Left Player Character
